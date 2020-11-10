@@ -1,0 +1,18 @@
+S → aSb | A
+A → aA | ε
+***
+
+S → AB
+A → a | ε
+B → CC | A | b
+C → c
+
+S → AB | B
+A → a
+B → CC | a | b | ε
+C → c
+***
+
+S → A | a
+A → Bc | b
+B → Ab | c
